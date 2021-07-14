@@ -1,0 +1,29 @@
+.box {
+  background: peachpuff;
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:nth-child(2) {
+  flex-basis: 150px;
+  background-color: aquamarine;
+  flex-shrink: 1;
+}
+
+.wrapper {
+  display: flex;
+  /* flex default value */
+  flex-direction: row;
+
+  /* Main Axis */
+  justify-content: space-around;
+  /* Cross Axis */
+  align-items: center;
+
+  height: 800px;
+}
